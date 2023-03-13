@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Newsletter from "./components/Newsletter";
 import React from "react";
-import Serviços from "./components/Serviços";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
-      <Serviços />
+      <Services />
     </div>
   );
 }
