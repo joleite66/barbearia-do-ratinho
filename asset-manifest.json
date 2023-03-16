@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6044a67.css",
-    "main.js": "/static/js/main.ba061fc0.js",
+    "main.css": "/static/css/main.37e3e04b.css",
+    "main.js": "/static/js/main.8e97746b.js",
     "static/media/before_after2.png": "/static/media/before_after2.5e2c5f1950a65f0e6f7c.png",
     "static/media/before_after3.png": "/static/media/before_after3.e40ef2d2c89c9df119bd.png",
     "static/media/before_after1.png": "/static/media/before_after1.d95aa610a20230b2baf3.png",
     "static/media/before_after4.png": "/static/media/before_after4.2c93ab1b95972f927538.png",
-    "static/media/logo_cabelo.jpg": "/static/media/logo_cabelo.a56c8e8b37c0ae846f3d.jpg",
+    "static/media/logo_cabelo_barba.png": "/static/media/logo_cabelo_barba.1b96e87887d389fd5b0f.png",
+    "static/media/logo_cabelo.png": "/static/media/logo_cabelo.e98d9d5d48e5b42b80d1.png",
+    "static/media/logo_barba.png": "/static/media/logo_barba.9f7211ea98928c0b6a27.png",
     "index.html": "/index.html",
-    "main.c6044a67.css.map": "/static/css/main.c6044a67.css.map",
-    "main.ba061fc0.js.map": "/static/js/main.ba061fc0.js.map"
+    "main.37e3e04b.css.map": "/static/css/main.37e3e04b.css.map",
+    "main.8e97746b.js.map": "/static/js/main.8e97746b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6044a67.css",
-    "static/js/main.ba061fc0.js"
+    "static/css/main.37e3e04b.css",
+    "static/js/main.8e97746b.js"
   ]
 }
