@@ -1,27 +1,49 @@
+import Barba from "../assets/logo_barba.png";
+import BarbaCabelo from "../assets/logo_cabelo_barba.png";
+import Cabelo from "../assets/logo_cabelo.png";
 import React from "react";
-import logo_barba from "../assets/logo_barba.png";
-import logo_cabelo_barba from "../assets/logo_cabelo_barba.png";
-import logo_cabelo from "../assets/logo_cabelo.png";
-import price from "../assets/price.jpg";
 
 const Services = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-1 gap-8">
-      
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+    <div className="w-full py-16 px-4">
+      <h1 className="md:text-7xl text-white sm:text-7xl text-6xl font-bold md:py-6 text-center">
+        SERVIÇOS
+      </h1>
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 px-4">
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300 hover:rounded">
+          <img className="object-contain h-48 w-96 " src={Barba} alt="Barba" />
+          <h2 className="text-2xl font-bold text-center py-8 ">Barba</h2>
+          <p className="text-center text-4xl font-bold">5€</p>
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+            Efetuar Marcação
+          </button>
+        </div>
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
           <img
-            className="bg-white"
-            src={price}
-            alt="price"
+            className="object-contain h-48 w-96  object-position: center"
+            src={Cabelo}
+            alt="Cabelo"
           />
-          <h2 className="tex-2xl font-bold text-center py-8">BARBA</h2>
-          <p className="text-center txt-4xl font-bold"> Corte de Barba</p>
-          <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">corte cabelo 9€ </p>
-            <p className="py-2 border-b mx-8 "></p>
-            <p className="py-2 border-b mx-8 "></p>
-          </div>
+          <h2 className="text-2xl font-bold text-center py-8">Cabelo</h2>
+          <p className="text-center text-4xl font-bold">10€</p>
+
+          <button className="bg-black  text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+            Efetuar Marcação
+          </button>
+        </div>
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
+          <img
+            className="object-contain h-48 w-96 "
+            src={BarbaCabelo}
+            alt="Barba e Cabelo"
+          />
+          <h2 className="text-2xl font-bold text-center py-8">
+            Barba e Cabelo
+          </h2>
+          <p className="text-center text-4xl font-bold">14€</p>
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+            Efetuar Marcação
+          </button>
         </div>
       </div>
     </div>
