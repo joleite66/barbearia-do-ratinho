@@ -3,9 +3,10 @@ import before_after1 from "../assets/before_after1.png";
 import before_after2 from "../assets/before_after2.png";
 import before_after3 from "../assets/before_after3.png";
 import before_after4 from "../assets/before_after4.png";
+
 // w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300 hover:rounded">
 
-const Analytics = () => {
+const Fotos = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
       <h1 className="md:text-7xl sm:text-7xl text-6xl font-bold md:py-6 text-center">
@@ -42,4 +43,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Fotos;

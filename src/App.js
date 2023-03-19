@@ -1,10 +1,10 @@
 import Analytics from './components/Analytics';
 import Footer from './components/Footer';
+import Fotos from './components/Fotos';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
 import React from 'react';
-import Services from './components/Services';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Intro />
       <Analytics />
-      <Services />
+      <Fotos />
       <Newsletter />
       <Footer />
     </div>
