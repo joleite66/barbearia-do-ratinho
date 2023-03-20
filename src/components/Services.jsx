@@ -10,15 +10,15 @@ const Services = () => {
         SERVIÇOS
       </h1>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 px-4">
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300 hover:rounded">
+        <div className="w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300 hover:rounded">
           <img className="object-contain h-48 w-96 " src={Barba} alt="Barba" />
           <h2 className="text-2xl font-bold text-center py-8 ">Barba</h2>
           <p className="text-center text-4xl font-bold">5€</p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
             Efetuar Marcação
           </button>
         </div>
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
+        <div className="w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
           <img
             className="object-contain h-48 w-96  object-position: center"
             src={Cabelo}
@@ -27,11 +27,11 @@ const Services = () => {
           <h2 className="text-2xl font-bold text-center py-8">Cabelo</h2>
           <p className="text-center text-4xl font-bold">10€</p>
 
-          <button className="bg-black  text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black  text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
             Efetuar Marcação
           </button>
         </div>
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
+        <div className="w-full shadow-xl bg-white flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-125 duration-300">
           <img
             className="object-contain h-48 w-96 "
             src={BarbaCabelo}
@@ -41,7 +41,7 @@ const Services = () => {
             Barba e Cabelo
           </h2>
           <p className="text-center text-4xl font-bold">14€</p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-white hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3  hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
             Efetuar Marcação
           </button>
         </div>
