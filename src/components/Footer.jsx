@@ -1,10 +1,4 @@
-import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 
 import React from "react";
 
@@ -15,14 +9,12 @@ const Footer = () => {
         <h1 className="text-3xl font-bold text-[#00df9a]">
           Barbearia do Ratinho
         </h1>
-        <div className="flex justify-between md:w-[75%] my-6">
+        <div className="flex place-content-evenly md:w-[75%] my-6">
           <a href="https://facebook.com/barbearia-do-ratinho">
             <FaFacebookSquare size={30} />
           </a>
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
         </div>
       </div>
       <div className="">
