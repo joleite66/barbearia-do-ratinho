@@ -34,7 +34,7 @@ const Navbar = () => {
         }
       >
         <div className="w-full text-3xl font-bold text-[#00df9a] m-4">
-        <img src={logo} alt="Barbearia do Ratinho" />
+          <img src={logo} alt="Barbearia do Ratinho" />
         </div>
         <li className="p-4 border-b border-gray-600">Home</li>
         <li className="p-4 border-b border-gray-600">Company</li>
