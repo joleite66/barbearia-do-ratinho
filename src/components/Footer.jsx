@@ -1,25 +1,27 @@
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 import React from "react";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto grid-cols-3 py-5 px-20 flex gap-8 text-gray-300 ">
-      <div className=" justify-between my-4">
-        <h1 className="text-3xl font-bold text-[#00df9a]">
-          Barbearia do Ratinho
-        </h1>
+    <div class="max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-3 py-5 px-4 sm:px-20 gap-4 text-gray-300">
+      <div class="flex justify-center items-center my-0 sm:my-0">
+        <h1 class="text-3xl font-bold text-[#00df9a]">
+        <img src={logo} alt="Barbearia do Ratinho" />
+      </h1>
       </div>
-      <div className="flex justify-between my-5">
+      <div class="flex justify-center items-center my-2">
         <a href="https://facebook.com/barbearia-do-ratinho">
-          <FaFacebookSquare size={30} />
+          <FaFacebookSquare class="text-5xl sm:text-5xl text-white  hover:text-[#00df9a]" />
         </a>
         <a href="https://facebook.com/barbearia-do-ratinho">
-          <FaInstagram size={30} />
+        <FaInstagram class="text-5xl sm:text-5xl text-white hover:text-[#00df9a]" />
         </a>
       </div>
-      <div className="flex justify-right my-6">
-        <p className="text-right">
+      <div class="w-full lg:mb-0 lg:inline-flex">
+  <div class="flex justify-center my-2 lg:justify-start">
+    <p class="flex items-center whitespace-nowrap text-center text-xs">
           <strong>
             © 2023 BARBEARIA DO RATINHO • WEBSITE MAGIC BY{" "}
             <a
@@ -33,9 +35,9 @@ const Footer = () => {
           </strong>
         </p>
       </div>
+      </div>
     </div>
   );
 };
-//            <span className="text-[#00df9a] hover:font-bold ">Política de privacidade</span>
 
 export default Footer;
