@@ -13,7 +13,7 @@ const Newsletter = () => {
             CONTACTO & MARCAÇÕES
           </h1>
           <p className="text-l font-bold text-center">
-          <strong>969145717</strong> JOÃO OLIVEIRA
+          <strong>914 716 580</strong> JOÃO OLIVEIRA
         </p>
         <p className="text-l font-bold text-center">
           R. Manuel Moreira da Cruz 165
