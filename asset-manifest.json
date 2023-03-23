@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0279ebe7.css",
-    "main.js": "/static/js/main.652e1c41.js",
+    "main.js": "/static/js/main.573fac66.js",
     "static/media/before_after2.png": "/static/media/before_after2.5e2c5f1950a65f0e6f7c.png",
     "static/media/before_after3.png": "/static/media/before_after3.e40ef2d2c89c9df119bd.png",
     "static/media/before_after1.png": "/static/media/before_after1.d95aa610a20230b2baf3.png",
@@ -11,10 +11,10 @@
     "static/media/logo_barba.png": "/static/media/logo_barba.9f7211ea98928c0b6a27.png",
     "index.html": "/index.html",
     "main.0279ebe7.css.map": "/static/css/main.0279ebe7.css.map",
-    "main.652e1c41.js.map": "/static/js/main.652e1c41.js.map"
+    "main.573fac66.js.map": "/static/js/main.573fac66.js.map"
   },
   "entrypoints": [
     "static/css/main.0279ebe7.css",
-    "static/js/main.652e1c41.js"
+    "static/js/main.573fac66.js"
   ]
 }
