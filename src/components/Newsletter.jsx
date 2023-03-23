@@ -10,7 +10,7 @@ const Newsletter = () => {
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-center">
-            CONTACTO & MARCAÇÕES
+            CONTACTO
           </h1>
           <p className="text-l font-bold text-center">
           <strong>914 716 580</strong> JOÃO OLIVEIRA

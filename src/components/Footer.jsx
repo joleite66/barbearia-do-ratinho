@@ -9,13 +9,6 @@ const Footer = () => {
         <h1 className="text-3xl font-bold text-[#00df9a]">
           Barbearia do Ratinho
         </h1>
-        <p className="text-l font-bold text-center">
-          Marcações pelo <strong>969145717</strong>
-        </p>
-        <p className="text-l font-bold text-center">
-          R. Manuel Moreira da Cruz 165
-        </p>
-        <p className="text-l font-bold text-center">4405-662 Gulpilhares</p>
       </div>
       <div className="flex justify-between my-5">
         <a href="https://facebook.com/barbearia-do-ratinho">
