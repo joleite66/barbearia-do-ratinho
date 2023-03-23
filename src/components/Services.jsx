@@ -3,6 +3,11 @@ import BarbaCabelo from "../assets/logo_cabelo_barba.png";
 import Cabelo from "../assets/logo_cabelo.png";
 import React from "react";
 
+const onClickAlert = () => {
+  alert("\n Funconalidade brevemente disponivel \n \n Para marcações contactar   914 716 580");
+}
+
+
 const Services = () => {
   return (
     <div className="w-full py-16 px-4">
@@ -14,7 +19,7 @@ const Services = () => {
           <img className="object-contain h-48 w-96 " src={Barba} alt="Barba" />
           <h2 className="text-2xl font-bold text-center py-8 ">Barba</h2>
           <p className="text-center text-4xl font-bold">5€</p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded" onClick={onClickAlert}>
             Efetuar Marcação
           </button>
         </div>
@@ -27,7 +32,7 @@ const Services = () => {
           <h2 className="text-2xl font-bold text-center py-8">Cabelo</h2>
           <p className="text-center text-4xl font-bold">10€</p>
 
-          <button className="bg-black  text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black  text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 hover:text-red-600 hover:scale-125 duration-300 hover:rounded" onClick={onClickAlert}>
             Efetuar Marcação
           </button>
         </div>
@@ -41,7 +46,7 @@ const Services = () => {
             Barba e Cabelo
           </h2>
           <p className="text-center text-4xl font-bold">14€</p>
-          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3  hover:text-red-600 hover:scale-125 duration-300 hover:rounded">
+          <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3  hover:text-red-600 hover:scale-125 duration-300 hover:rounded" onClick={onClickAlert}>
             Efetuar Marcação
           </button>
         </div>

@@ -1,6 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
 
+const onClickAlert = () => {
+  alert("\n Funconalidade brevemente disponivel \n \n Para marcações contactar   914 716 580");
+}
 const Intro = () => {
   return (
     <div className="text-white">
@@ -27,7 +30,7 @@ const Intro = () => {
           Serviços de alta qualidade em corte de cabelo, barba e cuidados com os
           pelos faciais
         </p>
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black" onClick={onClickAlert}>
           Marque já a sua visita
         </button>
       </div>
