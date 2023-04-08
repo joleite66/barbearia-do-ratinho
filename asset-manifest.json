@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24ce2f48.css",
-    "main.js": "/static/js/main.c166b3f2.js",
+    "main.css": "/static/css/main.4c4a9125.css",
+    "main.js": "/static/js/main.1e4ead53.js",
     "static/media/before_after2.png": "/static/media/before_after2.5e2c5f1950a65f0e6f7c.png",
     "static/media/before_after3.png": "/static/media/before_after3.e40ef2d2c89c9df119bd.png",
     "static/media/before_after1.png": "/static/media/before_after1.d95aa610a20230b2baf3.png",
@@ -10,11 +10,11 @@
     "static/media/logo_cabelo.png": "/static/media/logo_cabelo.e98d9d5d48e5b42b80d1.png",
     "static/media/logo_barba.png": "/static/media/logo_barba.9f7211ea98928c0b6a27.png",
     "index.html": "/index.html",
-    "main.24ce2f48.css.map": "/static/css/main.24ce2f48.css.map",
-    "main.c166b3f2.js.map": "/static/js/main.c166b3f2.js.map"
+    "main.4c4a9125.css.map": "/static/css/main.4c4a9125.css.map",
+    "main.1e4ead53.js.map": "/static/js/main.1e4ead53.js.map"
   },
   "entrypoints": [
-    "static/css/main.24ce2f48.css",
-    "static/js/main.c166b3f2.js"
+    "static/css/main.4c4a9125.css",
+    "static/js/main.1e4ead53.js"
   ]
 }
