@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Fotos from "./components/Fotos";
-import Intro from "./components/Intro";
-import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
 import Newsletter from "./components/Newsletter";
 import React from "react";
 import Services from "./components/Services";
@@ -9,8 +9,8 @@ import Services from "./components/Services";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Intro />
+      <NavBar />
+      <Home />
       <Fotos />
       <Services />
       <Newsletter />

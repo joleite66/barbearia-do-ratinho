@@ -2,9 +2,9 @@ import React from "react";
 import Typed from "react-typed";
 
 const onClickAlert = () => {
-  alert("\n Funconalidade brevemente disponivel \n \n Para marcações contactar   914 716 580");
+  alert("\n Funcionalidade brevemente disponivel \n \n Para marcações contactar   914 716 580");
 }
-const Intro = () => {
+const Home = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
@@ -38,4 +38,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Home;

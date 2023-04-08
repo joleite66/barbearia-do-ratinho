@@ -2,7 +2,7 @@ import React from "react";
 
 const onClickAlert = () => {
   alert(
-    "\n Funconalidade brevemente disponivel \n \n Para marcações contactar   914 716 580"
+    "\n Funcionalidade brevemente disponivel \n \n Para marcações contactar   914 716 580"
   );
 };
 

@@ -15,8 +15,18 @@ const Navbar = () => {
       <h1 className="w-full flex justify-center">
         <img src={logo} alt="Barbearia do Ratinho" />
       </h1>
+ 
+    </div>
+  );
+};
 
-      <ul className="hidden md:flex">
+export default Navbar;
+
+
+
+/*
+
+     <ul className="hidden ">
         <li className="p-4">Home</li>
         <li className="p-4">Sobre</li>
         <li className="p-4">Localização</li>
@@ -42,8 +52,4 @@ const Navbar = () => {
         <li className="p-4 border-b border-gray-600">About</li>
         <li className="p-4">Contact</li>
       </ul>
-    </div>
-  );
-};
-
-export default Navbar;
+*/
